@@ -3,7 +3,7 @@ import math
 import statistics as stats
 
 st.set_page_config(
-    page_title="Nick's Scientific Calculator",
+    page_title="Scientific Calculator",
     page_icon="🧮",
     layout="wide"
 )
@@ -35,7 +35,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<div class="title">🧮 Nick's Scientific Calculator</div>', unsafe_allow_html=True)
+st.markdown('<div class="title">🧮 Nick\'s Scientific Calculator</div>', unsafe_allow_html=True)
 
 tab1, tab2 = st.tabs(["🔬 Scientific Calculator", "📊 Statistics"])
 
